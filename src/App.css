@@ -1,0 +1,121 @@
+*{
+  box-sizing: border-box;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+}
+.App{
+  border: 2px ridge black;
+  border-top: none;
+  height: 95vh;
+}
+html{
+  font-size: 16px;
+}
+.header{
+  display: flex;
+  align-items: center;
+  color: rgb(253, 253, 253);
+  background: linear-gradient(10deg, #140d16 4.18%, #c170df 100%);
+  justify-content: center;
+  height: 12vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  justify-self: center;
+  border: 2px solid black;
+  margin-top: 4%;
+}
+.form{
+  display: grid;
+  grid-template: 3rem,3rem /1fr 1fr;
+  gap:3rem;
+  padding: 0.4rem;
+ 
+}
+.form--input{
+  border-radius: 5px;
+  height: 2rem;
+  grid-row: auto;
+   
+}
+.form-button{
+   grid-column: 1/-1;
+  
+   background:linear-gradient(10deg,#140d16 4.18%, #c170df 100% ) ;
+   color: antiquewhite;
+   height: auto;
+   font-size: 1.1rem;
+   font-weight: bold;
+   box-shadow: 1px 1px #3f1d3ff1;
+}
+.meme-image{
+  
+  width: 17rem;
+  height: 16rem;
+  margin-top: 2%;
+  border-radius: 10px; 
+
+
+
+}
+.main{
+ 
+  height: 70vh;
+  
+  
+}
+.meme{
+  align-items: center;
+  display: flex;
+}
+
+
+
+.meme--text1 {
+  
+  position: absolute;
+  text-align: center;
+  top: 47.5%;
+  left: 45%;
+  font-family: impact, sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: rgb(243, 243, 243);
+  letter-spacing: 1px;
+  text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+.meme--text2 {
+  align-items: center;
+  position: absolute;
+  text-align: center;
+  bottom: 16%;
+  left: 45%;
+  font-family: impact, sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+
+
